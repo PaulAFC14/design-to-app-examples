@@ -80,6 +80,11 @@ class _HomePageState extends State<HomePage> {
                   color: Theme.of(context).primaryColorLight,
                   shape: BoxShape.circle,
                 ),
+                clipBehavior: Clip.hardEdge,
+                child: Image.asset(
+                  'assets/img/profile.jpg',
+                  fit: BoxFit.cover,
+                ),
               ),
               SizedBox(width: 2 * vw),
               Column(
